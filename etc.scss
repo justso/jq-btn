@@ -1,0 +1,40 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+html {
+    background-color: #ddd;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    *>* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+button {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px gray;
+    font-size: 13px;
+    font-weight: bold;
+    height: 26px;
+    padding: 4px 12px;
+    &:hover {
+        box-shadow: 2px 2px 2px gray;
+        border-color: white;
+    }
+}
+.redBtn {
+    background-color: red;
+    color: white;
+    &:hover {
+        box-shadow: 1px 2px 2px gray;
+        border-color: yellow;
+    }
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */

@@ -1,16 +1,7 @@
-# MARKDOWN
-Body text -- `mono text`
-
-## PRE
-    $ do `it`
-
-### UL
-* [spot link](http://site/) `(http://site/)`
-* [named link][site] `[site]`
-
-#### OL
-0. 0
-0. 0
-
-[site]: http://site/
+# jq-btn
+*  stub out a jquery integrated button model
+*  establish a configuration `interface`
+*  create a factory in closure
+ *  for prototype extension
+ *  for private properties
 
